@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .text-danger {
+    color: red;
+    margin: 2px;
+  }
+  
+  .login-first-div {
+    height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  @media (max-width:425px) {
+    .login-first-div {
+      height: 100%;
+      margin-top: 30px;
+      background: none;
+    }
+  }
+  
+  .login-second-div {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 440px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .login-second-div h3 {
+    color: rgb(143, 13, 13);
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: Tauri;
+    text-transform: uppercase;
+  }
+  
+  .second p {
+    color: red;
+  }
+  
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Tauri;
+    font-size: 20px;
+  }
+  
+  
+  /* input */
+  
+  .form1 input {
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(143, 13, 13);
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-family: Tauri;
+    font-size: 15px;
+  
+  }
+  
+  /* input end */
+  
+  .form1 input:focus {
+    border: 2px solid gray;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* button */
+  
+  .form1 .submit {
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(143, 13, 13);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  
+  }
+  
+  /* button end */
+  
+  span {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Tauri;
+  }

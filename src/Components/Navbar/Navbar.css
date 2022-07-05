@@ -1,0 +1,52 @@
+.authenticated-div {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .authenticated-div .welcome-txt,
+  .authenticated-div .logout-txt {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #000;
+    margin: 0 12px 0 0;
+  }
+  
+  .authenticated-div .welcome-txt {
+    color: #4a4a4a;
+  }
+  
+  @media (max-width:320px) {
+  
+    .authenticated-div .welcome-txt,
+    .authenticated-div .logout-txt {
+      font-size: 10px;
+    }
+  
+    .authenticated-div .welcome-txt {
+      margin-left: 65px;
+    }
+  }
+  
+  @media (width:375px) {
+  
+    .authenticated-div .welcome-txt,
+    .authenticated-div .logout-txt {
+      font-size: 10px;
+    }
+  
+    .authenticated-div .welcome-txt {
+      margin-left: 100px;
+    }
+  }
+  
+  @media (width:425px) {
+  
+    .authenticated-div .welcome-txt,
+    .authenticated-div .logout-txt {
+      font-size: 10px;
+    }
+  
+    .authenticated-div .welcome-txt {
+      margin-left: 130px;
+    }
+  }
